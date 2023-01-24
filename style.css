@@ -1,0 +1,53 @@
+
+body{
+    background: linear-gradient(#b8dafc,white);
+}
+.container{
+   
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.inputbox{
+    border:1px solid lightgray;
+    width: 500px;
+    margin: auto;
+    height: auto;
+    padding: 0 20px;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.52);
+    
+    background-color:whitesmoke;
+   
+    
+}
+.btn1{
+    background-color:white ;
+    color: black;
+    border: 2px solid grey;
+    width: 65px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top:12px;
+}
+.btn1:hover{
+    transform: scale(1.155);
+}
+#btn{
+    height: 11px;
+}
+.mid{
+    text-align: center;
+}
+input{
+    width: 90%;
+    border: 1px solid lightgrey;
+}
+.mess{
+    height: 19px;
+}
+#finalmessage{
+    text-align: center;
+}
